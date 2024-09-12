@@ -19,6 +19,8 @@ on:
       - 'AUTHORS'
       - 'NEWS'
       - 'ChangeLog'
+  workflow_dispatch:  # 允许手动触发工作流
+
 
 env:
   WDK_URL: https://go.microsoft.com/fwlink/p/?LinkID=253170
